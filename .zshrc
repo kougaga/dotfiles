@@ -14,3 +14,12 @@ fi
 #
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
+
+# VIM as editor for the kubectl edit command
+KUBE_EDITOR="vim"
+
+# eksctl completion for zsh
+fpath=($fpath ~/.zsh/completion)
+
+autoload -U compinit
+compinit
