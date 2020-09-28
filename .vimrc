@@ -69,6 +69,9 @@ au BufNewFile,BufRead *.json,*.yaml,*.yml,*.md
     \ set shiftwidth=2 |
     \ set expandtab
 
+au BufNewFile,BufRead Jenkinsfile
+    \ setf groovy
+
 filetype plugin indent on
 set tabstop=4 			" show existing tab with 4 spaces width
 set shiftwidth=4 		" when indenting with '>', use 4 spaces width
