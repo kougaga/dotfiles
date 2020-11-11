@@ -21,6 +21,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'ekalinin/Dockerfile.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
