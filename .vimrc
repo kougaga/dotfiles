@@ -71,7 +71,8 @@ au BufNewFile,BufRead *.json,*.yaml,*.yml,*.md
     \ set expandtab
 
 au BufNewFile,BufRead Jenkinsfile
-    \ setf groovy
+    \ setf groovy |
+    \ set autoindent
 
 filetype plugin indent on
 set tabstop=4 			" show existing tab with 4 spaces width
