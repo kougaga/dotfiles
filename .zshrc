@@ -11,7 +11,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-#
+
+# kubectl aliases
+alias k="kubectl"
+alias kgx="kubectl config get-contexts"
+
+# docker aliases
+alias d="docker"
+alias dps="docker ps -a"
+alias dimg="docker images"
+
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
 
