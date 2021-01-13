@@ -24,6 +24,9 @@ alias dimg="docker images"
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
 
+# aws-iam-authenticator path
+export PATH=$PATH:$HOME/bin
+
 # VIM as editor for the kubectl edit command
 KUBE_EDITOR="vim"
 
