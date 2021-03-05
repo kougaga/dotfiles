@@ -28,7 +28,7 @@ source <(kubectl completion zsh)
 export PATH=$PATH:$HOME/bin
 
 # VIM as editor for the kubectl edit command
-KUBE_EDITOR="vim"
+export KUBE_EDITOR="vim"
 
 # eksctl completion for zsh
 fpath=($fpath ~/.zsh/completion)
