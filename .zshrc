@@ -40,5 +40,9 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
+# Add golang path
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=${HOME}/go
+
 autoload -U compinit
 compinit
